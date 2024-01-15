@@ -88,7 +88,12 @@ nav ul li a{
     width: 50%;
     text-align: end;
  }
-
+.header-circle {
+    position: absolute;
+    left: 790px;
+    top: 120px;
+    z-index: -1;
+  }
 
 
        /*main area style here*/
@@ -101,12 +106,22 @@ main{
        /* sponsore-area start here  */
 
 .sponsore-area{
-    width: 100%;
+    width: 90%;
     margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
 }
 .sponsore-logo{
     display: flex;
     justify-content: space-between;
+    gap: 70px;
+    align-items: center;
+}
+.threes-logo{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    align-items: center;
 }
 
 
